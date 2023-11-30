@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PonceBar</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <h2 class="header-text">Ponce's Bar</h2>
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+                                    
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="contenido-hero">
+                                <i><h2 style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Prueba algo nuevo</h2></i>
+                                
+                                <form action="#" id="busqueda" method="post" class="formulario">
+                                    <input class="u-full-width" type="text" placeholder="¿Que te gustaría ordenar?" id="buscador">
+                                    <input type="submit" id="submit-buscador" class="submit-buscador">
+                                </form>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icono icono1">
+                        <p>Mas de 50 bebidas <br>
+                        Explora  los bebidas nuevas</p>
+                    </div>
+                    <div class="four columns icono icono2">
+                        <p>Ordena en linea o en el local <br>
+                        Convive con tus amigos o familiares</p>
+                    </div>
+                    <div class="four columns icono icono3">
+                        <p>Entrega rapida de bebidas <br></p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lista-cursos" class="container">
+        <h1 id="encabezado" class="encabezado">Pide bebidas en linea</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Cosmopolitan.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Cosmopolitan</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$111  <span class="u-pull-right ">$80</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/como-hacer-mojito-casero.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Mojito</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$150  <span class="u-pull-right ">$90</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/Whisky Sour.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Whisky Sour</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$200  <span class="u-pull-right ">$140</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/3.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Old Fashioned</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$500  <span class="u-pull-right ">$350</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/4.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Negroni</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$400  <span class="u-pull-right ">$220</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/5.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Daiquiri</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$300  <span class="u-pull-right ">$150</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/6.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Martini seco</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$300  <span class="u-pull-right ">$200</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/7.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Espresso martini</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$500  <span class="u-pull-right ">$350</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/8.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Margarita</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$300  <span class="u-pull-right ">$240</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+    </div>  
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="four columns white-text">
+                    <h4>Contacto</h4>
+                    <p>¡Estamos aquí para ayudarte!<br>Contacta con nosotros para cualquier consulta.</p>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone white-icon"></i> Teléfono: +123456789</li>
+                        <li><i class="fas fa-envelope white-icon"></i> Email: info@poncesbar.com</li>
+                        <li><i class="fas fa-map-marker-alt white-icon"></i> Dirección: Av. Principal, Ciudad</li>
+                    </ul>
+                </div>
+                <div class="four columns white-text">
+                    <h4>Enlaces Útiles</h4>
+                    <ul class="useful-links">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Menú</a></li>
+                        <li><a href="#">Ofertas</a></li>
+                        <li><a href="#">Acerca de</a></li>
+                    </ul>
+                </div>
+                <div class="four columns white-text">
+                    <h4>Síguenos</h4>
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-facebook-f white-icon"></i><span>Facebook</span></a></li>
+                        <li><a href="#"><i class="fab fa-twitter white-icon"></i><span>X</span></a></li>
+                        <li><a href="#"><i class="fab fa-instagram white-icon"></i><span>Instagram</span></a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
